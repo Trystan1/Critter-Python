@@ -28,3 +28,4 @@ class Critter:
             elif self.__tiredness > 5:
                 print('Critter is sleepy from so much food.')
                 self.sleep()
+                # this is a test
