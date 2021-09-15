@@ -1,6 +1,4 @@
-from SubCritters import Dog
-from SubCritters import Cat
-from SubCritters import Rat
+from SubCritters import *
 
 def main():
 
@@ -18,18 +16,17 @@ def main():
         action = input(f'What would you like {name} to do?')
         if action == 'eat':
             bob.feed()
-            bob.eatNoise()
         elif action == 'sleep':
             bob.sleeps()
-            bob.sleepNoise()
         elif action == 'exercise':
             bob.exercise()
-            bob.exerciseNoise()
         bob.display()
+
     if bob.hasWon():
+        print(f'{name} has reached peak physical fitness.')
         print(f'{name} has achieved victory')
     else:
         print(f'{name} has died.')
 
-if __name__ == '__main__':
+if __name__ == '__main__':      # if I have started running my code from this file then run the function
     main()

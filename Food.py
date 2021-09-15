@@ -1,6 +1,7 @@
 class Food:
 
     def appllyFood(self):
+
         pass
 
 

@@ -4,72 +4,32 @@ from time import sleep
 class Dog(Critter):
 
     def eatNoise(self):
-        i = 1
-        while i <= 3:
-            sleep(1)
-            print('bark!')
-            i += 1
+        print('bark!')
 
     def sleepNoise(self):
-        i = 1
-        while i <= 3:
-            sleep(1)
-            print('zWoofz')
-            i += 1
+        print('zWoofz')
 
     def exerciseNoise(self):
-        i = 1
-        while i <= 3:
-            sleep(1)
-            print('Woof')
-            i += 1
-
+        print('Woof')
 
 class Cat(Critter):
 
     def eatNoise(self):
-        i = 1
-        while i <= 3:
-            sleep(1)
-            print('Prr')
-            i += 1
+        print('Prr')
 
     def sleepNoise(self):
-        i = 1
-        while i <= 3:
-            sleep(1)
-            print('zPrrz')
-            i += 1
+        print('zPrrz')
 
     def exerciseNoise(self):
-        i = 1
-        while i <= 3:
-            sleep(1)
-            print('Meow')
-            i += 1
+        print('Meow')
 
 class Rat(Critter):
 
     def eatNoise(self):
-        from time import sleep
-        i = 1
-        while i <= 3:
-            sleep(1)
-            print('Nom')
-            i += 1
+        print('Nom')
 
     def sleepNoise(self):
-        from time import sleep
-        i = 1
-        while i <= 3:
-            sleep(1)
-            print('zSqueakz')
-            i += 1
+        print('zSqueakz')
 
     def exerciseNoise(self):
-        from time import sleep
-        i = 1
-        while i <= 3:
-            sleep(1)
-            print('Squeak')
-            i += 1
+        print('Squeak')
